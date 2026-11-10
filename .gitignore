@@ -1,0 +1,20 @@
+cat > .gitignore <<'EOF'
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+myvenv/
+venv/
+.env
+
+# Celery / Flower
+celerybeat-schedule
+celerybeat.pid
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+*.swp
+EOF
